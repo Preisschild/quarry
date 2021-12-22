@@ -5,7 +5,6 @@ local x = 0
 local y = 0
 local z = 0
 local max = 32
-local deep = 64
 local facingfw = true
 
 local OK = 0
@@ -111,7 +110,7 @@ function refuel()
 		item = turtle.getItemDetail()
 		if item and
 				item.name == "minecraft:coal" and
-				(CHARCOALONLY == false or item.damage == 1) and
+				(CHARCOALONLY == false) and
 				turtle.refuel(1) then
 			return true
 		end
