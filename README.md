@@ -1,14 +1,14 @@
-# quarry
+# quarry (Updated for CC: Tweaked)
+
 Quarry script for ComputerCraft turtles.
 
 This script aims to the most reliable and self-sufficient way for a mining turtle to dig a quarry with as little human supervision as possible.
 
 # Usage
-Easiest way I know of installing quarry in your turtle, is to download the setup script from pastebin:
 
-`pastebin get LcrmJKAn setup`
+`wget run https://raw.githubusercontent.com/Preisschild/quarry/master/setup.lua`
 
-and then run it, it will download the scripts from this repository.
+This will download the scripts from this repository.
 Then just run `quarry`, there are a few flags you can specify:
 
 `quarry [-m] [-c]`
