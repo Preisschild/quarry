@@ -17,6 +17,8 @@ Then just run `quarry`, there are a few flags you can specify:
 `-c` means to use only Charcoal as fuel, if you don't want it to consume any coal it mines.
 More flags and customization to come.
 
+If you want to use a chest where it drops off items if it is full, you need to put it behind the turtle.
+
 # Features
 * Automatic refueling, using up coal as needed including coal mined from the ground.
 * Inventory management such as item sorting and stacking, dropping out thrash such as cobblestone and dirt when inventory is full, and storing ores and treasures in a chest.

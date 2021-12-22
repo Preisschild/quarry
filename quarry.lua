@@ -53,12 +53,12 @@ end
 
 function dropInChest()
 	turtle.turnLeft()
+	turtle.turnLeft()
 	
 	local success, data = turtle.inspect()
 	
 	if success then
-		if data.name == "minecraft:chest" then
-		
+		if data.name == "minecraft:chest" then		
 			out("Dropping items in chest")
 			
 			for i=1, 16 do
@@ -74,8 +74,10 @@ function dropInChest()
 				end
 			end
 		end
+	else
 	end
 	
+	turtle.turnRight()
 	turtle.turnRight()
 	
 end
